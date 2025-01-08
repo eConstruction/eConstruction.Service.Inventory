@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "thakcPsQGCdqS4N4HuCoPPrSb+RbPN9m5uQos4gzKTk=",
+  "Source": "eConstruction.Service.Inventory",
+  "BasePath": "_content/eConstruction.Service.Inventory",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
