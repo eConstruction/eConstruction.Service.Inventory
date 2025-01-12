@@ -4,7 +4,7 @@ namespace eConstruction.Service.Inventory.Controllers
 {
     [ApiController]
     [ApiExplorerSettings(GroupName = "v1")]
-    [Route("[controller]")]
+    [Route("api/v1/inventory/")]
     public class WeatherForecastController : ControllerBase
     {
         private static readonly string[] Summaries = new[]
@@ -28,7 +28,7 @@ namespace eConstruction.Service.Inventory.Controllers
             _logger = logger;
         }
 
-        [HttpGet(Name = "GetInventoryWeatherForecast")]
+        [HttpGet]
         public IEnumerable<WeatherForecast> GetInventoryWeatherForecast()
         {
             return Enumerable.Range(1, 5).Select(index => new WeatherForecast
